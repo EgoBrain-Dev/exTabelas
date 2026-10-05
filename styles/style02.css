@@ -1,0 +1,36 @@
+table {
+    border-collapse: collapse;
+    width: 650px;
+    height: 550px;
+    position: relative;
+
+
+
+}
+
+td, th {
+    border: 1px solid black;
+    height: 40px;
+
+}
+
+thead, tfoot {
+    background-color: gray;
+    color: white;
+    height: 50px;
+
+}
+
+thead > tr > th{
+    position: sticky;
+    top: 0;
+    background-color: gray;
+}
+
+.numero {
+    text-align: right;
+}
+
+tbody > tr:nth-child(2n){
+    background-color: lightgray;
+}

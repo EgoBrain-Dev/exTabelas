@@ -1,0 +1,27 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table{
+    border-collapse: separate;
+    width: 950px;
+}
+
+th, td{
+    border: 1px solid blue;
+    padding: 10px;
+}
+
+tr:nth-child(2n){
+    background-color: gray;
+}
+
+caption{
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+
+#container{
+overflow-x: auto;
+}

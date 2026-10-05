@@ -1,0 +1,41 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table{
+    border-collapse: separate; 
+    width: 750px;
+}
+
+thead{
+    background-color: grey;
+    color: white;
+}
+
+th, td{
+    border: 1px solid gray;
+    text-align: center;
+}
+
+.destaque{
+    background-color: gray;
+    color: white;
+    text-align: left;
+}
+
+.numero{
+    text-align: center;
+    background-color: gray;
+    color: white;
+    font-weight: bold;
+}
+
+.texto{
+    text-align: left;
+}
+
+
+caption{
+    font-size: 2em;
+    font-weight: bold;
+}

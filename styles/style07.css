@@ -1,0 +1,27 @@
+body{
+    font-family: Arial, Helvetica, sans-serif
+}
+
+table{
+    border-collapse: separate;
+    width: 750px;
+}
+
+th, td{
+    border: 1px solid gray;
+    padding: 10px;
+}
+
+caption{
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.coluna-sexo{
+    background-color: gray;
+}
+
+.destaque{
+    background-color:darkgray;
+    color: white;
+}
